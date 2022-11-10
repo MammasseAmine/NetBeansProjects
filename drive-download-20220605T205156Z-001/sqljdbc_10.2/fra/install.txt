@@ -1,0 +1,39 @@
+Instructions d’installation
+Microsoft JDBC Driver 10.2 pour SQL Server
+
+
+INTRODUCTION
+------------
+Le présent document contient des instructions concernant la décompression des fichiers sqljdbc_<version>_enu.zip et 
+sqljdbc_<version>_enu.tar.gz.
+
+
+WINDOWS
+-------
+1. Lisez le fichier license.txt. En téléchargeant et en utilisant Microsoft JDBC Driver 10.2 pour SQL Server, vous acceptez les termes de cette licence.
+
+2. Téléchargez le fichier sqljdbc_<version>_enu.zip dans un répertoire temporaire.
+
+3. Extrayez sqljdbc_<version>_enu.zip.
+
+4. Entrez un répertoire d’extraction lorsque vous y êtes invité ; il est recommandé de décompresser
+   ce fichier zip dans %ProgramFiles% avec le répertoire par défaut :
+
+	Microsoft JDBC DRIVER 10.2 pour SQL Server
+
+
+UNIX
+----
+1. Lisez le fichier license.txt. En téléchargeant et en utilisant Microsoft JDBC Driver 10.2 pour SQL Server, vous acceptez les termes de cette licence.
+
+2. Téléchargez le fichier sqljdbc_<version>_enu.tar.gz dans un répertoire temporaire.
+
+3. Pour décompresser l’archive tar, accédez au répertoire dans lequel vous souhaitez
+   décompresser le pilote, puis tapez :
+
+	gzip -d sqljdbc_<version>_enu.tar.gz
+
+4. Pour décompresser le fichier tar, déplacez-le vers le répertoire dans lequel vous souhaitez 
+   installer le pilote, puis tapez :
+
+	tar -xf sqljdbc_<version>_enu.tar
